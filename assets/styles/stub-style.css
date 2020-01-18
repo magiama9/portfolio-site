@@ -20,7 +20,7 @@ h2 {
 }
 
 body {
-  background-color: #e6e5e1;
+  background-color: #004000;
   width: 100vw;
   height: 100vh;
 }
@@ -195,6 +195,12 @@ body {
   background-color: #da4d1d;
 }
 
+.container .card0 .pic {
+  background-image: url("../images/Headshot_Small.jpg");
+}
+.container .card0 button {
+  background-color: #042266;
+}
 .dr {
   position: absolute;
   bottom: 16px;
