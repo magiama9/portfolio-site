@@ -6,7 +6,7 @@
 
 i {
   opacity: 0;
-  font-size: 18px;
+  font-size: 36px;
   color: #fff;
   will-change: transform;
   -webkit-transform: scale(0.1);
@@ -20,7 +20,8 @@ h2 {
 }
 
 body {
-  background-color: #004000;
+  /* background-color: #e6e5e1; */
+  background-color: #004400;
   width: 100vw;
   height: 100vh;
 }
@@ -51,7 +52,8 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  background-color: #e6e5e1;
+  /* background-color: #e6e5e1; */
+  background-color: #004400;
 }
 .container .card:after {
   content: "";
@@ -63,7 +65,8 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  background-color: #e6e5e1;
+  /* background-color: #e6e5e1; */
+  background-color: #004400;
 }
 .container .card ul {
   z-index: 99;
@@ -110,6 +113,7 @@ body {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+
 .container .card .pic {
   z-index: 100;
   width: 400px;
@@ -130,7 +134,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 180px;
+  width: 100px;
   height: 64px;
   border-radius: 80px;
 }
@@ -196,11 +200,13 @@ body {
 }
 
 .container .card0 .pic {
+  filter: grayscale(0%);
   background-image: url("../images/Headshot_Small.jpg");
 }
 .container .card0 button {
   background-color: #042266;
 }
+
 .dr {
   position: absolute;
   bottom: 16px;
