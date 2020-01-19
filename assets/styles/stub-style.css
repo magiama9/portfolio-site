@@ -21,7 +21,8 @@ h2 {
 
 body {
   /* background-color: #e6e5e1; */
-  background-color: #004400;
+  /* background-color: #004400; */
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   width: 100vw;
   height: 100vh;
 }
@@ -55,6 +56,7 @@ body {
   /* background-color: #e6e5e1; */
   background-color: #004400;
 }
+
 .container .card:after {
   content: "";
   z-index: 99;
@@ -96,7 +98,7 @@ body {
   z-index: 100;
   position: absolute;
   right: 75px;
-  bottom: 25px;
+  bottom: 15px;
   font-size: 40px;
   cursor: pointer;
 }
