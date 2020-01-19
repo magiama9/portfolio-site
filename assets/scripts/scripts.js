@@ -3,6 +3,9 @@ $(".card0 button, .githubMain").on("click", function() {
   window.open("https://github.com/magiama9", "_blank"); // MY GITHUB PROFILE
 });
 
+$(".fa-linkedin-in").on("click", function() {
+    window.open("https://www.linkedin.com/in/sam-randels/", "_blank"); // MY LINKEDIN
+  });
 
 $(".card1 button").on("click", function() {
   window.open("https://magiama9.github.io/group-project-01/", "_blank"); // COMMUTEBUDDY SITE
