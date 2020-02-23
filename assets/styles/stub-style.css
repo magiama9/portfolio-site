@@ -1,13 +1,16 @@
 body {
-  /* background-color: #e6e5e1; */
-  /* background-color: #004400; */
+  /* Linear gradient, 0% color is on the right */
   background-image: linear-gradient(to left, #ffecd2 0%, #fcb69f 100%);
   width: 100vw;
   height: 100vh;
   font-family: "Fira Sans";
+
+  /* Ensures no phantom scrollbars */
   display: flex;
 }
 
+/* TITLE AND HEADER SIZINGS */
+/* ************************************ */
 #title {
   font-size: 5rem;
 }
@@ -23,7 +26,11 @@ body {
 .bracket {
   font-weight: bolder;
 }
+/* ************************************ */
 
+
+/* CARD STYLING */
+/* ************************************ */
 .card {
   /* background: rgba(89, 74, 78, 0.41); */
   background: rgba(227, 213, 209, 0.5);
@@ -48,6 +55,16 @@ body {
   color: #fcb69f;
 }
 
+
+.navigate, .navigate:hover {
+  text-decoration: none;
+  color: #212529;
+}
+/* ************************************ */
+
+
+/* ARROW ANIMATION */
+/* ************************************ */
 .bracket.active.arrow {
   display: flex;
   align-items: center;

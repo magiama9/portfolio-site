@@ -1,32 +1,43 @@
-// EVENT HANDLERS FOR MAIN BUTTON AREA ON CARDS
-$(".card0 button, .githubMain").on("click", function() {
-  window.open("https://github.com/magiama9", "_blank"); // MY GITHUB PROFILE
-});
+$(() => {
+  // On DOM Load
 
-$(".fa-linkedin-in").on("click", function() {
-    window.open("https://www.linkedin.com/in/sam-randels/", "_blank"); // MY LINKEDIN
+  $(".bracket.active.arrow").hide();
+  $(".area").hide();
+
+  // HIDE CONTENT AREAS
+  const hideAreas = () => {
+    $(".projectArea").hide();
+    $(".skillArea").hide();
+    $(".bioArea").hide();
+  };
+  
+  // HIDE WEB DEVELOPER SUBTITLE
+  const hideSub = () => {
+    $(".subtitle").hide("slow");
+  };
+
+  // SHOW BIO
+  $(".navigate.bio").on("click", e => {
+    $(".bracket.active.arrow").hide();
+    hideSub();
+    hideAreas();
+    $("#bioArrow").show();
   });
 
-$(".card1 button").on("click", function() {
-  window.open("https://magiama9.github.io/group-project-01/", "_blank"); // COMMUTEBUDDY SITE
-});
+  // SHOW SKILLS
+  $(".navigate.skills").on("click", e => {
+    $(".bracket.active.arrow").hide();
+    hideSub();
+    hideAreas();
+    $("#skillArrow").show();
+  });
 
-$(".card2 button").on("click", function() {
-  window.open("https://magiama9.github.io/password-generator/", "_blank"); // PASSWORD GEN SITE
-});
-
-$(".card3 button").on("click", function() {
-  window.open("https://magiama9.github.io/code-quiz/", "_blank"); // CODE QUIZ SITE
-});
-
-$(".githubBuddy").on("click", function() {
-  window.open("https://github.com/magiama9/group-project-01", "_blank"); // COMMUTEBUDDY REPO
-});
-
-$(".githubnKey").on("click", function() {
-  window.open("https://github.com/magiama9/password-generator", "_blank"); // nKey REPO
-});
-
-$(".githubQuiz").on("click", function() {
-  window.open("https://github.com/magiama9/code-quiz", "_blank"); // CODE QUIZ REPO
+  // SHOW PROJECTS
+  $(".navigate.projects").on("click", e => {
+    $(".bracket.active.arrow").hide();
+    hideSub();
+    hideAreas();
+    $(".projectArea").show("slow");
+    $("#projectArrow").show();
+  });
 });
