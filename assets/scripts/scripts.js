@@ -10,7 +10,7 @@ $(() => {
     $(".skillArea").hide();
     $(".bioArea").hide();
   };
-  
+
   // HIDE WEB DEVELOPER SUBTITLE
   const hideSub = () => {
     $(".subtitle").hide("slow");
@@ -21,7 +21,8 @@ $(() => {
     $(".bracket.active.arrow").hide();
     hideSub();
     hideAreas();
-    $("#bioArrow").show();
+    $(".bioArea").show("slow");
+    $("#bioArrow").show("slow");
   });
 
   // SHOW SKILLS
@@ -30,7 +31,7 @@ $(() => {
     hideSub();
     hideAreas();
     $(".skillArea").show("slow");
-    $("#skillArrow").show();
+    $("#skillArrow").show("slow");
   });
 
   // SHOW PROJECTS
@@ -39,6 +40,6 @@ $(() => {
     hideSub();
     hideAreas();
     $(".projectArea").show("slow");
-    $("#projectArrow").show();
+    $("#projectArrow").show("slow");
   });
 });
