@@ -29,6 +29,7 @@ $(() => {
     $(".bracket.active.arrow").hide();
     hideSub();
     hideAreas();
+    $(".skillArea").show("slow");
     $("#skillArrow").show();
   });
 
