@@ -1,7 +1,7 @@
 body {
   /* background-color: #e6e5e1; */
   /* background-color: #004400; */
-  background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to left, #ffecd2 0%, #fcb69f 100%);
   width: 100vw;
   height: 100vh;
   font-family: "Fira Sans";
@@ -25,5 +25,45 @@ body {
 }
 
 .card {
-  background: rgba(89, 74, 78, 0.41);
+  /* background: rgba(89, 74, 78, 0.41); */
+  background: rgba(227, 213, 209, 0.5);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.project {
+  font-size: 1.75rem;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: rgba(89, 74, 78, 0.41);
+}
+
+.projectLink:hover {
+  text-decoration: none;
+  color: #fcb69f;
+}
+
+.bracket.active.arrow {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  animation: 0.5s bounce ease infinite;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
