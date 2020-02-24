@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(to left, #ffecd2 0%, #fcb69f 100%);
   width: 100vw;
   height: 100vh;
-  font-family: "Fira Sans";
+  font-family: "Futura PT";
 
   /* Ensures no phantom scrollbars */
   display: flex;
