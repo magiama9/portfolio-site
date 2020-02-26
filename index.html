@@ -1,335 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-157581668-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-157581668-2");
-    </script>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sam Randels</title>
-
-    <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
-    </style>
-    <link rel="stylesheet" href="assets/styles/stub-style.css" />
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row linkrow">
-        <div class="col-4 offset-1">
-          <div class="mx-auto mt-4" id="title">
-            Sam Randels
-          </div>
-          <div class="mx-auto mt-n4 linkheading subtitle">
-            Web Developer
-          </div>
-          <a href="#" class="navigate bio"
-            ><div class="mx-auto mt-4 linkheading">
-              bio<span class="bracket bio">/</span
-              ><span class="bracket active arrow" id="bioArrow">^</span>
-            </div></a
-          >
-          <a href="#" class="navigate skills">
-            <div class="mx-auto mt-3 linkheading ">
-              skills<span class="bracket skills">/</span
-              ><span class="bracket active arrow" id="skillArrow">^</span>
-            </div></a
-          >
-          <a href="#" class="navigate projects">
-            <div class="mx-auto mt-3 linkheading">
-              projects<span class="bracket portfolio">/</span
-              ><span class="bracket active arrow" id="projectArrow">^</span>
-            </div>
-          </a>
-          <div class="mx-auto mt-5 linkheading">
-            <!-- SOCIAL MEDIA LINKS -->
-            <a
-              href="https://github.com/magiama9"
-              target="_blank"
-              class="navigate"
-              ><i class="fab fa-github-square"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/sam-randels/"
-              target="_blank"
-              class="navigate"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="mailto:sam@samrandels.io" target="_blank" class="navigate"
-              ><i class="fas fa-envelope-square"></i
-            ></a>
-          </div>
-        </div>
-        <div class="col-4 mt-2 offset-1">
-          <div class="area bioArea">
-            <!-- BIO AREA -->
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">About Me</h5>
-                      <p class="card-text">
-                        Full Stack Web Developer
-                      </p>
-                      <p class="card-text">
-                        Lifelong Learner
-                      </p>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        I have always loved coding because it's a constant
-                        stream of new puzzles to solve and challenges to
-                        overcome. I began my career in the business world, but I
-                        recently took the opportunity to change careers into
-                        something I truly love by enrolling in a Full Stack Web
-                        Dev bootcamp through George Washington University.
-                      </p>
-                      <p>
-                        When I'm not coding, I'm probably reading or learning
-                        random facts that are completely useless outside of
-                        Jeopardy.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="area skillArea">
-            <!-- SKILLS AREA -->
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">Front End</h5>
-                      <p class="card-text">
-                        React, JavaScript (inc. ES6), JQuery, HTML5, CSS3, Sass,
-                        Bootstrap, Bulma, Flexbox
-                      </p>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        I am a skilled front-end designer with experience
-                        designing accessible, responsive websites. I love
-                        designing intuitive, user-friendly websites with strong
-                        design fundamentals.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">Back End</h5>
-                      <p class="card-text">
-                        Node, Express, MongoDB, Mongoose, MySQL, RESTful APIs,
-                        Passport
-                      </p>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        I have experience building out scalable frameworks for
-                        large applications using the latest server-side and
-                        database technologies. Most of my personal projects
-                        involve a significant amount of back end work.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">General Development</h5>
-                      <p class="card-text">
-                        Git, Github, Continuous Integration, Test-Driven
-                        Development, Open Source Development, Agile
-                        Methodologies
-                      </p>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        I never want to stop learning, and I try to stay at the
-                        forefront of developing technologies. In addition, I
-                        have managed teams of more than 10 people, and trained
-                        dozens of employees. I am skilled at integrating teams
-                        and processes across lines of business.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="area projectArea">
-            <!-- PROJECT AREA -->
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">ShopDesk</h5>
-                      <p class="card-text">
-                        E-commerce Platform for Small Business
-                      </p>
-                      <a
-                        href="https://guarded-brook-11312.herokuapp.com/"
-                        class="btn btn-dark"
-                        target="_blank"
-                        >Sell Smarter</a
-                      >
-                      <a
-                        href="https://github.com/magiama9/shopdesk"
-                        class="projectLink"
-                        target="_blank"
-                        ><i class="fab fa-github-square project"></i
-                      ></a>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        Shopping shouldn't be hard, and neither should selling
-                        your products. ShopDesk is a system that takes care of
-                        the logistics so you have the time for even more great
-                        ideas.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">CommuteBuddy</h5>
-                      <p class="card-text">
-                        Navigation Web App for Commuters
-                      </p>
-                      <a
-                        href="https://magiama9.github.io/commute-buddy/"
-                        class="btn btn-dark"
-                        target="_blank"
-                        >Find Your Way</a
-                      >
-                      <a
-                        href="https://github.com/magiama9/commute-buddy"
-                        class="projectLink"
-                        target="_blank"
-                        ><i class="fab fa-github-square project"></i
-                      ></a>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        Navigation application that provides an interactive map
-                        and turn-by-turn directions. The user has the option of
-                        viewing multiple different routes based on mode of
-                        transport and traffic.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="mx-auto mt-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <h5 class="card-title">Springly (WIP)</h5>
-                      <p class="card-text">
-                        Your Job Search, Modernized
-                      </p>
-                      <a
-                        href="https://github.com/magiama9/springly"
-                        class="btn btn-dark"
-                        target="_blank"
-                        >Get Hired</a
-                      >
-                      <a
-                        href="https://github.com/magiama9/springly"
-                        class="projectLink"
-                        target="_blank"
-                        ><i class="fab fa-github-square project"></i
-                      ></a>
-                    </div>
-                    <div class="col-7">
-                      <p class="card-text">
-                        Job searching isn't easy, but it doesn't have to be
-                        quite so hard. Springly is a tool designed to assist
-                        job-seekers in organizing their job search.
-                      </p>
-                      <p>
-                        <a href="/survey.html" target="_blank" class="survey"
-                          >Give your input here.</a
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- JQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Custom JS -->
-    <script src="assets/scripts/scripts.js"></script>
-  </body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.19.22"/><title data-react-helmet="true">Sam Randels Portfolio</title><link data-react-helmet="true" href="https://fonts.googleapis.com/css?family=Merriweather:700,700i&amp;display=swap" rel="stylesheet"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" http-equiv="X-UA-Compatible" content="IE=edge"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1"/><meta data-react-helmet="true" name="theme-color" content="#fff"/><meta data-react-helmet="true" itemProp="name" content="Sam Randels Portfolio"/><meta data-react-helmet="true" itemProp="description" content="Sam Randels is a full stack developer working to build the modern web."/><meta data-react-helmet="true" itemProp="image" content="https://samrandels.io/preview.jpg"/><meta data-react-helmet="true" name="description" content="Sam Randels is a full stack developer working to build the modern web."/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:site"/><meta data-react-helmet="true" name="twitter:title" content="Sam Randels Portfolio"/><meta data-react-helmet="true" name="twitter:description" content="Sam Randels is a full stack developer working to build the modern web."/><meta data-react-helmet="true" name="twitter:creator"/><meta data-react-helmet="true" name="twitter:image" content="https://samrandels.io/preview.jpg"/><meta data-react-helmet="true" property="og:title" content="Sam Randels Portfolio"/><meta data-react-helmet="true" property="og:url"/><meta data-react-helmet="true" property="og:image" content="https://samrandels.io/preview.jpg"/><meta data-react-helmet="true" property="og:description" content="Sam Randels is a full stack developer working to build the modern web."/><meta data-react-helmet="true" property="og:site_name"/><script data-react-helmet="true" type="text/javascript">
+    (function() {
+      try {
+        var mode = localStorage.getItem('theme-ui-color-mode');
+        if (!mode) {
+          localStorage.setItem('theme-ui-color-mode', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/icons/icon-48x48.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#fff"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=5a6c20cc7ff5bc000bbc155aaaeb4c01"/><link as="script" rel="preload" href="/webpack-runtime-a7dfaab379e845bc6d7f.js"/><link as="script" rel="preload" href="/netlify-identity-widget-228173c724ed734191fe.js"/><link as="script" rel="preload" href="/app-c7eb63c5f48593405c9f.js"/><link as="script" rel="preload" href="/commons-4cb65107058f45f09d77.js"/><link as="script" rel="preload" href="/component---node-modules-narative-gatsby-theme-novela-src-templates-articles-template-tsx-d93d14133bebc7d0e598.js"/><link as="fetch" rel="preload" href="/page-data\index\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/></head><body><script>(function() { try {
+        var mode = localStorage.getItem('theme-ui-color-mode');
+        if (!mode) return
+        document.body.classList.add('theme-ui-' + mode);
+      } catch (e) {} })();</script><div id="___gatsby"><style data-emotion-css="acmv4e">body{--theme-ui-colors-prism-token:var(--theme-ui-colors-prism-token,#fff);--theme-ui-colors-prism-languageJavascript:var(--theme-ui-colors-prism-languageJavascript,#e8696b);--theme-ui-colors-prism-javascript:var(--theme-ui-colors-prism-javascript,#e8696b);--theme-ui-colors-prism-background:var(--theme-ui-colors-prism-background,#292c34);--theme-ui-colors-prism-comment:var(--theme-ui-colors-prism-comment,#5e6a76);--theme-ui-colors-prism-string:var(--theme-ui-colors-prism-string,#a8e2a8);--theme-ui-colors-prism-var:var(--theme-ui-colors-prism-var,#b3bac5);--theme-ui-colors-prism-number:var(--theme-ui-colors-prism-number,#e4854d);--theme-ui-colors-prism-constant:var(--theme-ui-colors-prism-constant,#b3bac5);--theme-ui-colors-prism-plain:var(--theme-ui-colors-prism-plain,#fff);--theme-ui-colors-prism-doctype:var(--theme-ui-colors-prism-doctype,#e8696b);--theme-ui-colors-prism-tag:var(--theme-ui-colors-prism-tag,#e8696b);--theme-ui-colors-prism-keyword:var(--theme-ui-colors-prism-keyword,#d49fd4);--theme-ui-colors-prism-boolean:var(--theme-ui-colors-prism-boolean,#ff5874);--theme-ui-colors-prism-function:var(--theme-ui-colors-prism-function,#5F8DC3);--theme-ui-colors-prism-parameter:var(--theme-ui-colors-prism-parameter,#F9965D);--theme-ui-colors-prism-className:var(--theme-ui-colors-prism-className,#ffcf74);--theme-ui-colors-prism-attrName:var(--theme-ui-colors-prism-attrName,#bf87ba);--theme-ui-colors-prism-attrValue:var(--theme-ui-colors-prism-attrValue,#a8e2a8);--theme-ui-colors-prism-interpolation:var(--theme-ui-colors-prism-interpolation,#fff);--theme-ui-colors-prism-punctuation:var(--theme-ui-colors-prism-punctuation,#5FA8AA);--theme-ui-colors-prism-maybe-class-name:var(--theme-ui-colors-prism-maybe-class-name,#fff);--theme-ui-colors-prism-property:var(--theme-ui-colors-prism-property,#80cbc4);--theme-ui-colors-prism-propertyAccess:var(--theme-ui-colors-prism-propertyAccess,#fff);--theme-ui-colors-prism-namespace:var(--theme-ui-colors-prism-namespace,#b2ccd6);--theme-ui-colors-prism-highlight:var(--theme-ui-colors-prism-highlight,rgba(255,255,255,0.07));--theme-ui-colors-prism-highlightBorder:var(--theme-ui-colors-prism-highlightBorder,#e1bde2);--theme-ui-colors-prism-dom:var(--theme-ui-colors-prism-dom,#5F8DC3);--theme-ui-colors-prism-operator:var(--theme-ui-colors-prism-operator,#5FA8AA);--theme-ui-colors-primary:var(--theme-ui-colors-primary,#000);--theme-ui-colors-secondary:var(--theme-ui-colors-secondary,#73737D);--theme-ui-colors-grey:var(--theme-ui-colors-grey,#73737D);--theme-ui-colors-background:var(--theme-ui-colors-background,#fafafa);--theme-ui-colors-accent:var(--theme-ui-colors-accent,#6166DC);--theme-ui-colors-hover:var(--theme-ui-colors-hover,rgba(0,0,0,0.07));--theme-ui-colors-gradient:var(--theme-ui-colors-gradient,linear-gradient(180deg,rgba(217,219,224,0) 0%,#D9DBE0 100%));--theme-ui-colors-articleText:var(--theme-ui-colors-articleText,#08080B);--theme-ui-colors-track:var(--theme-ui-colors-track,rgba(8,8,11,0.3));--theme-ui-colors-progress:var(--theme-ui-colors-progress,#000);--theme-ui-colors-card:var(--theme-ui-colors-card,#fff);--theme-ui-colors-error:var(--theme-ui-colors-error,#EE565B);--theme-ui-colors-success:var(--theme-ui-colors-success,#46B17B);--theme-ui-colors-errorBackground:var(--theme-ui-colors-errorBackground,rgba(238,86,91,0.1));--theme-ui-colors-horizontalRule:var(--theme-ui-colors-horizontalRule,rgba(8,8,11,0.15));--theme-ui-colors-inputBackground:var(--theme-ui-colors-inputBackground,rgba(0,0,0,0.05));color:var(--theme-ui-colors-text,undefined);background-color:var(--theme-ui-colors-background,var(--theme-ui-colors-background,#fafafa));}body.theme-ui-dark{--theme-ui-colors-grey:var(--theme-ui-colors-modes-dark-grey,#73737D);--theme-ui-colors-primary:var(--theme-ui-colors-modes-dark-primary,#fff);--theme-ui-colors-secondary:var(--theme-ui-colors-modes-dark-secondary,#fff);--theme-ui-colors-accent:var(--theme-ui-colors-modes-dark-accent,#E9DAAC);--theme-ui-colors-background:var(--theme-ui-colors-modes-dark-background,#111216);--theme-ui-colors-hover:var(--theme-ui-colors-modes-dark-hover,rgba(255,255,255,0.07));--theme-ui-colors-gradient:var(--theme-ui-colors-modes-dark-gradient,linear-gradient(180deg,#111216 0%,rgba(66,81,98,0.36) 100%));--theme-ui-colors-articleText:var(--theme-ui-colors-modes-dark-articleText,#fff);--theme-ui-colors-track:var(--theme-ui-colors-modes-dark-track,rgba(255,255,255,0.3));--theme-ui-colors-progress:var(--theme-ui-colors-modes-dark-progress,#fff);--theme-ui-colors-card:var(--theme-ui-colors-modes-dark-card,#1D2128);--theme-ui-colors-error:var(--theme-ui-colors-modes-dark-error,#EE565B);--theme-ui-colors-success:var(--theme-ui-colors-modes-dark-success,#46B17B);--theme-ui-colors-errorBackground:var(--theme-ui-colors-modes-dark-errorBackground,rgba(238,86,91,0.1));--theme-ui-colors-horizontalRule:var(--theme-ui-colors-modes-dark-horizontalRule,rgba(255,255,255,0.15));--theme-ui-colors-inputBackground:var(--theme-ui-colors-modes-dark-inputBackground,rgba(255,255,255,0.07));}</style><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion-css="1birv2v">.css-1birv2v{position:relative;background:var(--theme-ui-colors-background,#fafafa);-webkit-transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad);transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad);min-height:100vh;}</style><div class="css-1birv2v e1u54h6q0"><style data-emotion-css="1vmv202">:root{--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-out-quad:cubic-bezier(0.25,0.46,0.45,0.94);--ease-out-quart:cubic-bezier(0.165,0.84,0.44,1);--ease-in-out-quad:cubic-bezier(0.455,0.03,0.515,0.955);--ease-in-out-quart:cubic-bezier(0.77,0,0.175,1);}@font-face{font-family:"-apple-system","BlinkMacSystemFont","San Francisco","Helvetica Neue","Helvetica","Ubuntu","Roboto","Noto","Segoe UI","Arial",sans-serif;font-weight:400;font-style:normal;}*,*:before,*:after{box-sizing:inherit;margin:0;padding:0;font-size:inherit;font-display:block;}:root{-ms-overflow-style:-ms-autohiding-scrollbar;box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;cursor:default;font-size:0.625rem;line-height:1.4;}body{font-family:"-apple-system","BlinkMacSystemFont","San Francisco","Helvetica Neue","Helvetica","Ubuntu","Roboto","Noto","Segoe UI","Arial",sans-serif;font-size:1.6rem;margin:0;font-weight:400;height:100%;}button,a{-webkit-text-decoration:none;text-decoration:none;cursor:pointer;}a:focus{outline:none;}audio,canvas,iframe,img,svg,video{vertical-align:middle;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}input,textarea,select,button{font-family:"-apple-system","BlinkMacSystemFont","San Francisco","Helvetica Neue","Helvetica","Ubuntu","Roboto","Noto","Segoe UI","Arial",sans-serif;}.underline{-webkit-text-decoration:underline;text-decoration:underline;}button,input,select,textarea{color:inherit;font-family:inherit;font-style:inherit;font-weight:inherit;}code,kbd,pre,samp{font-family:monospace;}fieldset,button{-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;outline:none;background:transparent;}table{border-collapse:separate;border-spacing:0;}audio:not([controls]){display:none;}details{display:block;}input:focus,input:active{outline:none;}input[type="number"]{width:auto;}img.Image__Zoom ~ div{background:transparent !important;}</style><style data-emotion-css="il8sto">.css-il8sto{width:100%;max-width:1220px;margin:0 auto;padding:0 4rem;}@media (max-width:66.875em){.css-il8sto{max-width:850px;}}@media (max-width:45.9375em){.css-il8sto{padding:0 4rem;max-width:567px;}}@media (max-width:33.75em){.css-il8sto{max-width:100%;}}</style><section class="css-il8sto e9w9r0m0"><style data-emotion-css="ysq45m">.css-ysq45m{position:relative;z-index:100;padding-top:100px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}@media (max-width:80em){.css-ysq45m{padding-top:50px;}}@media screen and (max-height:800px){.css-ysq45m{padding-top:50px;}}</style><div class="css-ysq45m e1m4jzoz1"><style data-emotion-css="15p801d">.css-15p801d{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;left:0;}@media (max-width:80em){.css-15p801d{left:0;}}.css-15p801d[data-a11y="true"]:focus::after{content:"";position:absolute;left:-10%;top:-30%;width:120%;height:160%;border:2px solid var(--theme-ui-colors-accent,#6166DC);background:rgba(255,255,255,0.01);border-radius:5px;}.css-15p801d:hover .e1m4jzoz0{-webkit-transform:translateX(-3px);-ms-transform:translateX(-3px);transform:translateX(-3px);}</style><a aria-current="page" data-a11y="false" title="Navigate back to the homepage" aria-label="Navigate back to the homepage" back="false" class="css-15p801d e1m4jzoz2" href="/"><svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M59.9436 66.5868L48.7683 85.9798L37.5931 66.5868H59.9436ZM62.9374 64.8535H34.5872L48.7683 89.41L62.9374 64.8535Z" fill="#414042"></path><path d="M79.3731 42.4665L90.5483 61.8595H68.1978L79.3731 42.4665ZM79.3731 39L65.1919 63.5564H93.5542L79.3731 39Z" fill="#414042"></path><path d="M21 39L32.8904 60.7202L45.8837 39.5454L21 39Z" fill="#414042"></path><path d="M48.7686 40.9031L61.2408 62.5021H36.2722L48.7686 40.9031Z" fill="#414042"></path><path d="M64.4527 67.217L76.937 89.41H51.3745L64.0648 67.217H64.4527Z" fill="#414042"></path><path d="M67.1555 65.8716L79.3731 87.7251L91.7604 65.8716H67.1555Z" fill="#414042"></path></svg><style data-emotion-css="10l5b14">.css-10l5b14{position:absolute;display:inline-block;opacity:0;width:0px;height:0px;visibility:hidden;overflow:hidden;}</style><span class="css-10l5b14 e1m4jzoz8">Navigate back to the homepage</span></a><style data-emotion-css="1qdrnpx">.css-1qdrnpx{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}@media (max-width:33.75em){.css-1qdrnpx{right:-5px;}}</style><div class="css-1qdrnpx e1m4jzoz3"><style data-emotion-css="4zc6l3">.css-4zc6l3{opacity:0.5;position:relative;border-radius:5px;width:40px;height:25px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-transition:opacity 0.3s ease;transition:opacity 0.3s ease;margin-left:30px;}.css-4zc6l3:hover{opacity:1;}.css-4zc6l3[data-a11y="true"]:focus::after{content:"";position:absolute;left:0;top:-30%;width:100%;height:160%;border:2px solid var(--theme-ui-colors-accent,#6166DC);background:rgba(255,255,255,0.01);border-radius:5px;}@media (max-width:45.9375em){.css-4zc6l3{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-transform:scale(0.708);-ms-transform:scale(0.708);transform:scale(0.708);margin-left:10px;}.css-4zc6l3:hover{opacity:0.5;}}</style><button data-a11y="false" aria-label="Activate dark mode" title="Activate dark mode" class="css-4zc6l3 e1m4jzoz5"><style data-emotion-css="jmdf3f">.css-jmdf3f{position:relative;width:24px;height:24px;border-radius:50%;border:2px solid var(--theme-ui-colors-primary,#000);background:var(--theme-ui-colors-primary,#000);-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:all 0.45s ease;transition:all 0.45s ease;overflow:hidden;}.css-jmdf3f::before{content:"";position:absolute;right:-9px;top:-9px;height:24px;width:24px;border:2px solid var(--theme-ui-colors-primary,#000);border-radius:50%;-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;-webkit-transition:-webkit-transform 0.45s ease;-webkit-transition:transform 0.45s ease;transition:transform 0.45s ease;}.css-jmdf3f::after{content:"";width:8px;height:8px;border-radius:50%;margin:-4px 0 0 -4px;position:absolute;top:50%;left:50%;box-shadow:0 -23px 0 var(--theme-ui-colors-primary,#000),0 23px 0 var(--theme-ui-colors-primary,#000),23px 0 0 var(--theme-ui-colors-primary,#000),-23px 0 0 var(--theme-ui-colors-primary,#000),15px 15px 0 var(--theme-ui-colors-primary,#000),-15px 15px 0 var(--theme-ui-colors-primary,#000),15px -15px 0 var(--theme-ui-colors-primary,#000),-15px -15px 0 var(--theme-ui-colors-primary,#000);-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-transition:all 0.35s ease;transition:all 0.35s ease;}@media (max-width:45.9375em){.css-jmdf3f::after{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}}</style><div class="css-jmdf3f e1m4jzoz6"></div><style data-emotion-css="1k5uyy5">.css-1k5uyy5{position:absolute;right:-1px;top:-8px;height:24px;width:24px;border-radius:50%;border:0;background:var(--theme-ui-colors-background,#fafafa);-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;-webkit-transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad),-webkit-transform 0.45s ease;-webkit-transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad),transform 0.45s ease;transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad),transform 0.45s ease;}</style><div class="css-1k5uyy5 e1m4jzoz7"></div></button></div></div></section><section id="Articles__Hero" class="css-il8sto e9w9r0m0"><style data-emotion-css="uet71t">.css-uet71t{margin:100px 0;}@media (max-width:66.875em){.css-uet71t{width:80%;}}@media (max-width:45.9375em){.css-uet71t{width:100%;}}</style><div style="max-width:652px" class="css-uet71t evd3z0e2"><style data-emotion-css="1rj1x1k">.css-1rj1x1k{font-style:normal;font-weight:600;font-size:52px;line-height:1.15;color:var(--theme-ui-colors-primary,#000);}.css-1rj1x1k a{color:var(--theme-ui-colors-accent,#6166DC);}@media (max-width:66.875em){.css-1rj1x1k{font-size:38px;}}@media (max-width:33.75em){.css-1rj1x1k{font-size:32px;}}</style><h1 class="css-1rj1x1k evd3z0e3">Hi, I'm Sam. I'm a full stack developer working to build the modern web.</h1></div><style data-emotion-css="nzpo5i">.css-nzpo5i{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:100px;}@media (max-width:66.875em){.css-nzpo5i{margin-bottom:80px;}}@media (max-width:45.9375em){.css-nzpo5i{margin-bottom:60px;}}@media (max-width:33.75em){.css-nzpo5i{display:none;}}</style><div class="css-nzpo5i evd3z0e0"><style data-emotion-css="3j1lrl">.css-3j1lrl{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;left:-10px;}</style><div class="css-3j1lrl eig4wgl0"><style data-emotion-css="1xcyvrx">.css-1xcyvrx{display:block;position:relative;height:40px;width:40px;border-radius:50%;background:rgba(0,0,0,0.25);margin-right:16px;margin:10px 26px 10px 10px;}.css-1xcyvrx::after{content:'';position:absolute;left:-5px;top:-5px;width:50px;height:50px;border-radius:50%;border:1px solid rgba(0,0,0,0.25);}.css-1xcyvrx[data-a11y='true']:focus::after{content:'';position:absolute;left:-5px;top:-5px;width:50px;height:50px;border:2px solid var(--theme-ui-colors-accent,#6166DC);}</style><a data-a11y="false" aria-label="Author&#x27;s bio" class="css-1xcyvrx eig4wgl1" href="/authors/Sam-Randels"><style data-emotion-css="wibiw4">.css-wibiw4{height:40px;width:40px;border-radius:50%;background:rgba(0,0,0,0.25);margin-right:16px;overflow:hidden;}</style><div class="css-wibiw4 eig4wgl3"><style data-emotion-css="uodor8">.css-uodor8{border-radius:50%;}</style><style data-emotion-css="1qspsgn">.css-1qspsgn{border-radius:50%;}.css-1qspsgn > img{-webkit-filter:blur(8px);filter:blur(8px);}</style><div class="eig4wgl2 css-1qspsgn e13158qv0 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:66.66666666666667%"></div><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAXZGxzYcsb//xAAcEAACAQUBAAAAAAAAAAAAAAABAhEAAxATFCH/2gAIAQEAAQUCPrLGLzlRJ5d7Cv/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAQABBQAAAAAAAAAAAAAAAAAhEBFBUWH/2gAIAQEABj8CdpC+Ybf/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUFh/9oACAEBAAE/IWKzZ5vd7EIFvSsqqWzr2AKa+p//2gAMAwEAAgADAAAAEJzP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/EBlz/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EBI2/8QAHRABAAIDAAMBAAAAAAAAAAAAAQARITFBUWFxof/aAAgBAQABPxAh6ZlaAorqPmvEQ3FCyxemIUNGN/Z3vkrmh1h/J//Z" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/4e197390e887feb113fbaf4f1376251d/74aad/sam-randels.webp 25w,
+/static/4e197390e887feb113fbaf4f1376251d/e7b2c/sam-randels.webp 50w,
+/static/4e197390e887feb113fbaf4f1376251d/66016/sam-randels.webp 100w,
+/static/4e197390e887feb113fbaf4f1376251d/d9b14/sam-randels.webp 150w,
+/static/4e197390e887feb113fbaf4f1376251d/6b183/sam-randels.webp 200w,
+/static/4e197390e887feb113fbaf4f1376251d/7a328/sam-randels.webp 612w" sizes="(max-width: 100px) 100vw, 100px" /><source srcset="/static/4e197390e887feb113fbaf4f1376251d/7c20e/sam-randels.jpg 25w,
+/static/4e197390e887feb113fbaf4f1376251d/fa1ea/sam-randels.jpg 50w,
+/static/4e197390e887feb113fbaf4f1376251d/61cdf/sam-randels.jpg 100w,
+/static/4e197390e887feb113fbaf4f1376251d/59538/sam-randels.jpg 150w,
+/static/4e197390e887feb113fbaf4f1376251d/fd013/sam-randels.jpg 200w,
+/static/4e197390e887feb113fbaf4f1376251d/3817b/sam-randels.jpg 612w" sizes="(max-width: 100px) 100vw, 100px" /><img loading="lazy" sizes="(max-width: 100px) 100vw, 100px" srcset="/static/4e197390e887feb113fbaf4f1376251d/7c20e/sam-randels.jpg 25w,
+/static/4e197390e887feb113fbaf4f1376251d/fa1ea/sam-randels.jpg 50w,
+/static/4e197390e887feb113fbaf4f1376251d/61cdf/sam-randels.jpg 100w,
+/static/4e197390e887feb113fbaf4f1376251d/59538/sam-randels.jpg 150w,
+/static/4e197390e887feb113fbaf4f1376251d/fd013/sam-randels.jpg 200w,
+/static/4e197390e887feb113fbaf4f1376251d/3817b/sam-randels.jpg 612w" src="/static/4e197390e887feb113fbaf4f1376251d/61cdf/sam-randels.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><style data-emotion-css="1a8uegb">.css-1a8uegb{max-width:430px;font-size:14px;line-height:1.45;color:var(--theme-ui-colors-grey,#73737D);}.css-1a8uegb a{color:var(--theme-ui-colors-grey,#73737D);-webkit-text-decoration:underline;text-decoration:underline;}</style><p class="css-1a8uegb eig4wgl4">Lifelong learner and lover of puzzles big and small.
+</p></div><style data-emotion-css="dvse26">.css-dvse26{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}@media (max-width:45.9375em){.css-dvse26{display:none;}}</style><div class="css-dvse26 evd3z0e1"><style data-emotion-css="ag2hb6">.css-ag2hb6{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:36px;width:36px;border-radius:50%;background:transparent;-webkit-transition:background 0.25s;transition:background 0.25s;}.css-ag2hb6:not(:last-child){margin-right:30px;}.css-ag2hb6:hover{background:var(--theme-ui-colors-hover,rgba(0,0,0,0.07));}.css-ag2hb6[data-a11y='true']:focus::after{content:'';position:absolute;left:-10%;top:-10%;width:120%;height:120%;border:2px solid var(--theme-ui-colors-accent,#6166DC);background:rgba(255,255,255,0.01);border-radius:50%;}.css-ag2hb6 svg{opacity:0.25;-webkit-transition:opacity 0.2s;transition:opacity 0.2s;}.css-ag2hb6 svg path{fill:var(--theme-ui-colors-primary,#000);}</style><button data-a11y="false" title="Show articles in Tile grid" aria-label="Show articles in Tile grid" class="css-ag2hb6 evd3z0e4"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.33337 13.8424H12.0371V5.4165H4.33337V13.8424ZM4.33337 20.5832H12.0371V15.5276H4.33337V20.5832ZM13.963 20.5832H21.6667V12.1572H13.963V20.5832ZM13.963 5.4165V10.4721H21.6667V5.4165H13.963Z"></path></svg></button><style data-emotion-css="36dx1t">.css-36dx1t{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:36px;width:36px;border-radius:50%;background:transparent;-webkit-transition:background 0.25s;transition:background 0.25s;}.css-36dx1t:not(:last-child){margin-right:30px;}.css-36dx1t:hover{background:var(--theme-ui-colors-hover,rgba(0,0,0,0.07));}.css-36dx1t[data-a11y='true']:focus::after{content:'';position:absolute;left:-10%;top:-10%;width:120%;height:120%;border:2px solid var(--theme-ui-colors-accent,#6166DC);background:rgba(255,255,255,0.01);border-radius:50%;}.css-36dx1t svg{opacity:1;-webkit-transition:opacity 0.2s;transition:opacity 0.2s;}.css-36dx1t svg path{fill:var(--theme-ui-colors-primary,#000);}</style><button data-a11y="false" title="Show articles in Row grid" aria-label="Show articles in Row grid" class="css-36dx1t evd3z0e4"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.33331 15.1665H8.41174V10.8332H4.33331V15.1665ZM4.33331 20.5832H8.41174V16.2498H4.33331V20.5832ZM4.33331 9.74984H8.41174V5.4165H4.33331V9.74984ZM9.43135 15.1665H21.6666V10.8332H9.43135V15.1665ZM9.43135 20.5832H21.6666V16.2498H9.43135V20.5832ZM9.43135 5.4165V9.74984H21.6666V5.4165H9.43135Z"></path></svg></button></div></div></section><style data-emotion-css="4j05o4">.css-4j05o4{width:100%;max-width:1220px;margin:0 auto;padding:0 4rem;}@media (max-width:66.875em){.css-4j05o4{max-width:850px;}}@media (max-width:45.9375em){.css-4j05o4{padding:0 2rem;max-width:527px;}}@media (max-width:33.75em){.css-4j05o4{max-width:100%;}}</style><section class="css-4j05o4 e9w9r0m0"><style data-emotion-css="1a5pcje">.css-1a5pcje{-webkit-transition:opacity 0.25s;transition:opacity 0.25s;}</style><div style="opacity:0" class="css-1a5pcje e14bbv6l0"><style data-emotion-css="ybwe3r">.css-ybwe3r{position:relative;display:grid;grid-template-columns:1fr 457px;grid-template-rows:2;-webkit-column-gap:30px;column-gap:30px;}.css-ybwe3r:not(:last-child){margin-bottom:75px;}@media (max-width:80em){.css-ybwe3r{grid-template-columns:1fr 1fr;}}@media (max-width:45.9375em){.css-ybwe3r{grid-template-columns:1fr;}.css-ybwe3r:not(:last-child){margin-bottom:0;}}</style><div class="css-ybwe3r e14bbv6l1"><style data-emotion-css="1jduoby">.css-1jduoby{position:relative;display:block;width:100%;height:100%;top:0;left:0;border-radius:5px;z-index:1;-webkit-transition:-webkit-transform 0.33s var(--ease-out-quart);-webkit-transition:transform 0.33s var(--ease-out-quart);transition:transform 0.33s var(--ease-out-quart);-webkit-tap-highlight-color:rgba(255,255,255,0);}.css-1jduoby:hover .e14bbv6l3,.css-1jduoby:focus .e14bbv6l3{-webkit-transform:translateY(-1px);-ms-transform:translateY(-1px);transform:translateY(-1px);box-shadow:0 50px 80px -20px rgba(0,0,0,0.27),0 30px 50px -30px rgba(0,0,0,0.3);}.css-1jduoby:hover h2,.css-1jduoby:focus h2{color:var(--theme-ui-colors-accent,#6166DC);}.css-1jduoby[data-a11y='true']:focus::after{content:'';position:absolute;left:-1.5%;top:-2%;width:103%;height:104%;border:3px solid var(--theme-ui-colors-accent,#6166DC);background:rgba(255,255,255,0.01);border-radius:5px;}@media (max-width:33.75em){.css-1jduoby:hover .e14bbv6l3{-webkit-transform:none;-ms-transform:none;transform:none;box-shadow:initial;}.css-1jduoby:active{-webkit-transform:scale(0.97) translateY(3px);-ms-transform:scale(0.97) translateY(3px);transform:scale(0.97) translateY(3px);}}</style><a data-a11y="false" class="css-1jduoby e14bbv6l7" href="/CommuteBuddy"><style data-emotion-css="phy31">.css-phy31{position:relative;}@media (max-width:45.9375em){.css-phy31{margin-bottom:60px;}}@media (max-width:540px){.css-phy31{background:var(--theme-ui-colors-card,#fff);}}@media (max-width:33.75em){.css-phy31{margin-bottom:40px;box-shadow:0px 20px 40px rgba(0,0,0,0.2);border-bottom-right-radius:5px;border-bottom-left-radius:5px;}}</style><div class="css-phy31 e14bbv6l2"><style data-emotion-css="1wrt7wp">.css-1wrt7wp{position:relative;height:280px;box-shadow:0 30px 60px -10px rgba(0,0,0,0.3),0 18px 36px -18px rgba(0,0,0,0.33);margin-bottom:30px;-webkit-transition:-webkit-transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);-webkit-transition:transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);transition:transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);}.css-1wrt7wp > div{height:100%;}@media (max-width:45.9375em){.css-1wrt7wp{height:200px;margin-bottom:35px;}}@media (max-width:33.75em){.css-1wrt7wp{overflow:hidden;margin-bottom:0;box-shadow:none;border-top-right-radius:5px;border-top-left-radius:5px;}}</style><div class="css-1wrt7wp e14bbv6l3"><style data-emotion-css="133qvua">.css-133qvua > img{-webkit-filter:blur(8px);filter:blur(8px);}</style><div class="css-133qvua e13158qv0 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:56.510416666666664%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAACE3AAAhNwEzWJ96AAABi0lEQVQoz51TS0/CQBDmH2Hf2wfttk1pSSlKAQFfXIyJmhjveEI9cOEvf86stily4/BlXjvfzM7u9HzfRxAEcF0XnucpGccxiqJAlmUKw+EQeZ7/6iSL0UghL37BZxnM0zNNE10YhqECSZIoghElpmmq7LIskSYxBq5DhQViXyD0CGEIIYTK71mWhQa2baPf72Oz2WC73WK/3+NwOGC32+Hl+RmfX994fXrEW2HjMdHxUep4zy5wt6ghXA8mNdMSMnsjmZgrOo6j7EZvirqODd824doWpKA4SYv8Jx12Sfnq3TEcjUXBUtBNq/Vz7hFhl/QcnHR4LmE352iGTYCveKFp0HQdOulsa5qufMbfOU03FDjeJT/pkJMz+nd36xUeblaYz2pUkwmWyyXu19eop1eoqgqzywo3ixnKPFNFWkLjr4Nm8NxVkUqsp2NChSyWEPTC83GB23qCVIZw6EWrSGAqBcYDG1b7YPRteDP+Y0AfO4wiDMJISSkjRFGIoLUlSan0iHTeLPbxpv0AUpF4T77NNcAAAAAASUVORK5CYII=" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/69532ed51bc0f9e9a88bbf07d66007a6/ac59e/commute-buddy.webp 163w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/7660b/commute-buddy.webp 327w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/0acdf/commute-buddy.webp 653w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/75470/commute-buddy.webp 980w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/68d47/commute-buddy.webp 1306w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/79942/commute-buddy.webp 2304w" sizes="(max-width: 653px) 100vw, 653px" /><source srcset="/static/69532ed51bc0f9e9a88bbf07d66007a6/078a8/commute-buddy.png 163w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/e56da/commute-buddy.png 327w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/3ddd4/commute-buddy.png 653w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/c5cc7/commute-buddy.png 980w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/eebd2/commute-buddy.png 1306w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/e7b12/commute-buddy.png 2304w" sizes="(max-width: 653px) 100vw, 653px" /><img loading="lazy" sizes="(max-width: 653px) 100vw, 653px" srcset="/static/69532ed51bc0f9e9a88bbf07d66007a6/078a8/commute-buddy.png 163w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/e56da/commute-buddy.png 327w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/3ddd4/commute-buddy.png 653w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/c5cc7/commute-buddy.png 980w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/eebd2/commute-buddy.png 1306w,
+/static/69532ed51bc0f9e9a88bbf07d66007a6/e7b12/commute-buddy.png 2304w" src="/static/69532ed51bc0f9e9a88bbf07d66007a6/3ddd4/commute-buddy.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div><div><style data-emotion-css="ppg2y7">.css-ppg2y7{word-break:keep-all;font-size:32px;line-height:1.333;font-weight:bold;color:var(--theme-ui-colors-primary,#000);font-family:'Merriweather',Georgia,Serif;font-size:21px;font-family:'Merriweather',Georgia,Serif;margin-bottom:10px;-webkit-transition:color 0.3s ease-in-out;transition:color 0.3s ease-in-out;text-overflow:ellipsis;overflow-wrap:normal;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;white-space:normal;overflow:hidden;}@media (max-width:66.875em){.css-ppg2y7{font-size:21px;}}@media (max-width:45.9375em){.css-ppg2y7{font-size:24px;line-height:1.45;}}@media (max-width:33.75em){.css-ppg2y7{font-size:22px;}}@media (max-width:33.75em){.css-ppg2y7{-webkit-line-clamp:3;}}@media (max-width:66.875em){.css-ppg2y7{margin-bottom:15px;}}@media (max-width:45.9375em){.css-ppg2y7{font-size:24px;}}@media (max-width:33.75em){.css-ppg2y7{font-size:22px;padding:30px 20px 0;margin-bottom:10px;-webkit-line-clamp:3;}}</style><h2 class="css-ppg2y7 e14bbv6l4">CommuteBuddy</h2><style data-emotion-css="wtffy9">.css-wtffy9{text-overflow:ellipsis;overflow-wrap:normal;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;white-space:normal;overflow:hidden;font-size:16px;margin-bottom:10px;color:var(--theme-ui-colors-grey,#73737D);display:box;max-width:515px;}@media (max-width:33.75em){.css-wtffy9{-webkit-line-clamp:3;}}@media (max-width:66.875em){.css-wtffy9{display:-webkit-box;}}@media (max-width:33.75em){.css-wtffy9{margin-bottom;15px;}}@media (max-width:33.75em){.css-wtffy9{max-width:100%;padding:0 20px;margin-bottom:20px;-webkit-line-clamp:3;}}</style><p class="css-wtffy9 e14bbv6l5">Commuting costs more than we realize. CommuteBuddy provides an elegant way to tackle the tough decisions commuters face and save money in the process.</p><style data-emotion-css="118hiy6">.css-118hiy6{font-weight:600;font-size:16px;color:var(--theme-ui-colors-grey,#73737D);opacity:0.33;}@media (max-width:33.75em){.css-118hiy6{max-width:100%;padding:0 20px 30px;}}</style><div class="css-118hiy6 e14bbv6l6">February 25th, 2020<!-- --> · <!-- -->2<!-- --> min read</div></div></div></a><a data-a11y="false" class="css-1jduoby e14bbv6l7" href="/ShopDesk"><div class="css-phy31 e14bbv6l2"><style data-emotion-css="1jbcrc8">.css-1jbcrc8{position:relative;height:280px;box-shadow:0 30px 60px -10px rgba(0,0,0,0.22),0 18px 36px -18px rgba(0,0,0,0.25);margin-bottom:30px;-webkit-transition:-webkit-transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);-webkit-transition:transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);transition:transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);}.css-1jbcrc8 > div{height:100%;}@media (max-width:45.9375em){.css-1jbcrc8{height:200px;margin-bottom:35px;}}@media (max-width:33.75em){.css-1jbcrc8{overflow:hidden;margin-bottom:0;box-shadow:none;border-top-right-radius:5px;border-top-left-radius:5px;}}</style><div class="css-1jbcrc8 e14bbv6l3"><div class="css-133qvua e13158qv0 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:100%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABh0lEQVQ4y62Uy2rCQBSG84BqvV92giKiLioqXlB0I7iw6taNKLjUjdiLfYD2CapJbW31AXyE+Ttnxpi0UDVpFx8nHJKPf2bORNHUFVRNBVVt+fJnFF2mrl+x3G1P8HkRipC9rbF5fsK+28G+w+l1JZ0bU69n9E+gaKslVh8b7O7vAKcT8HplJXw+4Motq8Nh9E9wFG5v52DX12CzGdh4DDYagQ2HYNMp2GAAFgqBRSJn+Z4wHgdrt8GqVYBoNoF6HUgmgUAA4NJzGML5HMjnZbrJBOj3AZ4SPCFaLcDlAsJhC0JKGIuJdKxcBgoFoFIB6DmTAfx+Cwk379g9LsTmM7dbAI8HoErQQdEHwaDkIuHiQbzM+LIImNFllhKSkG+8OM0LPvx/oTmx6dm68LelH/rWhLqMZpJOnSphOjTrCUmUSsmRyuXkBSiVjmNlXUiJEgkpKRaBdFrMr70l6wn5nRcJSRiNGltha8n058lmgVpNpmw0JLYT6mn4n0XwY/DtnbJ+Bc0c+l/yvY6LGiTSBgAAAABJRU5ErkJggg==" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/2b55acbd4446251b4b96c07a4e6dfb4c/31fce/black-and-white-squares-industrial-logo.webp 114w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/e3e25/black-and-white-squares-industrial-logo.webp 229w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/15384/black-and-white-squares-industrial-logo.webp 457w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/0258d/black-and-white-squares-industrial-logo.webp 686w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/64ea2/black-and-white-squares-industrial-logo.webp 914w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/fd45d/black-and-white-squares-industrial-logo.webp 1500w" sizes="(max-width: 457px) 100vw, 457px" /><source srcset="/static/2b55acbd4446251b4b96c07a4e6dfb4c/f2e6d/black-and-white-squares-industrial-logo.png 114w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/4ddba/black-and-white-squares-industrial-logo.png 229w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/502b1/black-and-white-squares-industrial-logo.png 457w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/7ddc2/black-and-white-squares-industrial-logo.png 686w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/435bf/black-and-white-squares-industrial-logo.png 914w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/8d364/black-and-white-squares-industrial-logo.png 1500w" sizes="(max-width: 457px) 100vw, 457px" /><img loading="lazy" sizes="(max-width: 457px) 100vw, 457px" srcset="/static/2b55acbd4446251b4b96c07a4e6dfb4c/f2e6d/black-and-white-squares-industrial-logo.png 114w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/4ddba/black-and-white-squares-industrial-logo.png 229w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/502b1/black-and-white-squares-industrial-logo.png 457w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/7ddc2/black-and-white-squares-industrial-logo.png 686w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/435bf/black-and-white-squares-industrial-logo.png 914w,
+/static/2b55acbd4446251b4b96c07a4e6dfb4c/8d364/black-and-white-squares-industrial-logo.png 1500w" src="/static/2b55acbd4446251b4b96c07a4e6dfb4c/502b1/black-and-white-squares-industrial-logo.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div><div><h2 class="css-ppg2y7 e14bbv6l4">ShopDesk</h2><style data-emotion-css="1iphwaz">.css-1iphwaz{text-overflow:ellipsis;overflow-wrap:normal;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;white-space:normal;overflow:hidden;font-size:16px;margin-bottom:10px;color:var(--theme-ui-colors-grey,#73737D);display:box;max-width:415px;}@media (max-width:33.75em){.css-1iphwaz{-webkit-line-clamp:3;}}@media (max-width:66.875em){.css-1iphwaz{display:-webkit-box;}}@media (max-width:33.75em){.css-1iphwaz{margin-bottom;15px;}}@media (max-width:33.75em){.css-1iphwaz{max-width:100%;padding:0 20px;margin-bottom:20px;-webkit-line-clamp:3;}}</style><p class="css-1iphwaz e14bbv6l5">ShopDesk is a modern e-commerce platform designed for small business from the ground up.</p><div class="css-118hiy6 e14bbv6l6">February 25th, 2020<!-- --> · <!-- -->1<!-- --> min read</div></div></div></a></div><style data-emotion-css="15drfg3">.css-15drfg3{position:relative;display:grid;grid-template-columns:457px 1fr;grid-template-rows:2;-webkit-column-gap:30px;column-gap:30px;}.css-15drfg3:not(:last-child){margin-bottom:75px;}@media (max-width:80em){.css-15drfg3{grid-template-columns:1fr 1fr;}}@media (max-width:45.9375em){.css-15drfg3{grid-template-columns:1fr;}.css-15drfg3:not(:last-child){margin-bottom:0;}}</style><div class="css-15drfg3 e14bbv6l1"><a data-a11y="false" class="css-1jduoby e14bbv6l7" href="/Springly"><div class="css-phy31 e14bbv6l2"><div class="css-1jbcrc8 e14bbv6l3"><div class="css-133qvua e13158qv0 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:100%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABl0lEQVQ4y2NgaDD/T1U8aiBuXG9GmE20gTBN9aZgzNRo8Z+h1vg/Q50JpqHEGMQIYgMNYGmy+s/ebPOfoUrvv2SP13+BDmeEoVgNBBrA2GDxn7nREugKSzDNCHUZT5vjf/v5mf9dF+UCDfP+77Ag879QpyvQQGMcBoINA9I1hv8ZKrSBrtAH0lpgl7EBXaU/PQZMg9T5LC0CqjMAuxTkALBPYN6GGQiWACoymBHzv3DHhP/x6xv/J29s+d9xeOH/KadWA9mt/+OAYrnbev4vvrj9v//y0v8msxKAFhpB9KK7EORFkI3ui/P+X3t1///66wf+b7t19P/UU2v+r7u2/3/PsaX/jz66+H/LzSP/N904/H8rUM5lYc5/hkodiF5cYQgKN8MZsf8TNzT/lwAGvGCHy3/ZPt//HC22/2PXNfxvOTjvv9bUiP9pm9r/szZZQ2IeOaYxkwaQrtYHx6Zwp9t/kS73/+LdnmA2KFYFgBaA+GJdHmBL4AbiciEsPBmRxLHxiU/Y6ApgMUhRTkFXRGyWHC2+qIIBYsfSXbKxlokAAAAASUVORK5CYII=" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/b463697591879fc7a0152b99753f3baa/31fce/springly.webp 114w,
+/static/b463697591879fc7a0152b99753f3baa/e3e25/springly.webp 229w,
+/static/b463697591879fc7a0152b99753f3baa/15384/springly.webp 457w,
+/static/b463697591879fc7a0152b99753f3baa/0258d/springly.webp 686w,
+/static/b463697591879fc7a0152b99753f3baa/64ea2/springly.webp 914w,
+/static/b463697591879fc7a0152b99753f3baa/fd45d/springly.webp 1500w" sizes="(max-width: 457px) 100vw, 457px" /><source srcset="/static/b463697591879fc7a0152b99753f3baa/f2e6d/springly.png 114w,
+/static/b463697591879fc7a0152b99753f3baa/4ddba/springly.png 229w,
+/static/b463697591879fc7a0152b99753f3baa/502b1/springly.png 457w,
+/static/b463697591879fc7a0152b99753f3baa/7ddc2/springly.png 686w,
+/static/b463697591879fc7a0152b99753f3baa/435bf/springly.png 914w,
+/static/b463697591879fc7a0152b99753f3baa/8d364/springly.png 1500w" sizes="(max-width: 457px) 100vw, 457px" /><img loading="lazy" sizes="(max-width: 457px) 100vw, 457px" srcset="/static/b463697591879fc7a0152b99753f3baa/f2e6d/springly.png 114w,
+/static/b463697591879fc7a0152b99753f3baa/4ddba/springly.png 229w,
+/static/b463697591879fc7a0152b99753f3baa/502b1/springly.png 457w,
+/static/b463697591879fc7a0152b99753f3baa/7ddc2/springly.png 686w,
+/static/b463697591879fc7a0152b99753f3baa/435bf/springly.png 914w,
+/static/b463697591879fc7a0152b99753f3baa/8d364/springly.png 1500w" src="/static/b463697591879fc7a0152b99753f3baa/502b1/springly.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div><div><h2 class="css-ppg2y7 e14bbv6l4">Springly</h2><p class="css-1iphwaz e14bbv6l5">Job searching isn&#x27;t easy, but it doesn&#x27;t have to be quite so hard. Springly is a tool designed to assist job-seekers in organizing their job search.</p><div class="css-118hiy6 e14bbv6l6">February 25th, 2020<!-- --> · <!-- -->1<!-- --> min read</div></div></div></a></div></div><div class="css-0 e1bswbkw1"></div></section><style data-emotion-css="1hk9het">.css-1hk9het{position:absolute;bottom:0;left:0;width:100%;height:590px;z-index:0;pointer-events:none;background:var(--theme-ui-colors-gradient,linear-gradient(180deg,rgba(217,219,224,0) 0%,#D9DBE0 100%));-webkit-transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad);transition:background 0.25s var(--ease-in-out-quad),color 0.25s var(--ease-in-out-quad);}</style><div class="css-1hk9het e1bswbkw0"></div><div class="css-1hk9het e9nvoze3"></div><section class="css-4j05o4 e9w9r0m0"><style data-emotion-css="1nedy0r">.css-1nedy0r{position:relative;margin:140px auto 50px;border-bottom:1px solid var(--theme-ui-colors-horizontalRule,rgba(8,8,11,0.15));}@media (max-width:45.9375em){.css-1nedy0r{margin:60px auto;}}@media (max-width:33.75em){.css-1nedy0r{display:none;}}</style><div class="css-1nedy0r e9nvoze1"></div><style data-emotion-css="1d54ci6">.css-1d54ci6{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding-bottom:80px;color:var(--theme-ui-colors-grey,#73737D);}@media (max-width:45.9375em){.css-1d54ci6{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding-bottom:100px;}}@media (max-width:33.75em){.css-1d54ci6{padding-bottom:50px;}}</style><div class="css-1d54ci6 e9nvoze0"><style data-emotion-css="1pt7hv6">@media (max-width:45.9375em){.css-1pt7hv6{margin-bottom:80px;}}@media (max-width:33.75em){.css-1pt7hv6{margin:120px auto 100px;}}</style><div class="css-1pt7hv6 e9nvoze2">© <!-- -->2020<!-- --> <!-- -->Portfolio</div><div><style data-emotion-css="10tgu6b">.css-10tgu6b{position:relative;margin-left:3.2rem;-webkit-text-decoration:none;text-decoration:none;max-width:16px;}.css-10tgu6b:hover svg:hover *{fill:var(--theme-ui-colors-primary,#000);}.css-10tgu6b:hover svg *{-webkit-transition:fill 0.25s var(--ease-in-out-quad);transition:fill 0.25s var(--ease-in-out-quad);}.css-10tgu6b:first-of-type{margin-left:0;}.css-10tgu6b:last-child{margin-right:0;}.css-10tgu6b[data-a11y='true']:focus::after{content:'';position:absolute;left:-50%;top:-20%;width:200%;height:160%;border:2px solid var(--theme-ui-colors-accent,#6166DC);background:rgba(255,255,255,0.01);border-radius:5px;}@media (max-width:45.9375em){.css-10tgu6b{margin:0 2.2rem;}}</style><a target="_blank" rel="noopener nofollow" data-a11y="false" aria-label="Link to https://github.com/magiama9" href="https://github.com/magiama9" class="css-10tgu6b e1dx16qw0"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 0C3.1325 0 0 3.21173 0 7.17706C0 10.3529 2.00375 13.0353 4.78625 13.9863C5.13625 14.0491 5.2675 13.8338 5.2675 13.6454C5.2675 13.4749 5.25875 12.9097 5.25875 12.3087C3.5 12.6406 3.045 11.8691 2.905 11.4653C2.82625 11.259 2.485 10.622 2.1875 10.4516C1.9425 10.317 1.5925 9.98508 2.17875 9.97611C2.73 9.96714 3.12375 10.4964 3.255 10.7118C3.885 11.7973 4.89125 11.4923 5.29375 11.3039C5.355 10.8374 5.53875 10.5234 5.74 10.3439C4.1825 10.1645 2.555 9.54549 2.555 6.80026C2.555 6.01976 2.82625 5.37382 3.2725 4.87143C3.2025 4.692 2.9575 3.95635 3.3425 2.96951C3.3425 2.96951 3.92875 2.78111 5.2675 3.70516C5.8275 3.54367 6.4225 3.46293 7.0175 3.46293C7.6125 3.46293 8.2075 3.54367 8.7675 3.70516C10.1063 2.77214 10.6925 2.96951 10.6925 2.96951C11.0775 3.95635 10.8325 4.692 10.7625 4.87143C11.2087 5.37382 11.48 6.01079 11.48 6.80026C11.48 9.55446 9.84375 10.1645 8.28625 10.3439C8.54 10.5682 8.75875 10.9988 8.75875 11.6717C8.75875 12.6316 8.75 13.4032 8.75 13.6454C8.75 13.8338 8.88125 14.0581 9.23125 13.9863C11.9963 13.0353 14 10.3439 14 7.17706C14 3.21173 10.8675 0 7 0Z" fill="#73737D"></path></svg><style data-emotion-css="mglztx">.css-mglztx{width:0px;height:0px;visibility:hidden;opacity:0;overflow:hidden;display:inline-block;}</style><span class="css-mglztx e1dx16qw1">Link to $<!-- -->https://github.com/magiama9</span></a><a target="_blank" rel="noopener nofollow" data-a11y="false" aria-label="Link to https://www.linkedin.com/in/sam-randels" href="https://www.linkedin.com/in/sam-randels" class="css-10tgu6b e1dx16qw0"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.59615 13.125H0.871552V4.36523H3.59615V13.125ZM2.24847 3.16406C1.81878 3.16406 1.44769 3.00781 1.13519 2.69531C0.822692 2.38281 0.666443 2.01171 0.666443 1.58203C0.666443 1.15234 0.822692 0.781248 1.13519 0.468749C1.44769 0.156249 1.81878 0 2.24847 0C2.67816 0 3.04925 0.156249 3.36175 0.468749C3.67425 0.781248 3.8305 1.15234 3.8305 1.58203C3.8305 2.01171 3.67425 2.38281 3.36175 2.69531C3.04925 3.00781 2.67816 3.16406 2.24847 3.16406ZM13.7915 13.125H11.0669V8.84765C11.0669 8.14452 11.0083 7.63671 10.8911 7.32421C10.6763 6.79687 10.2563 6.5332 9.63134 6.5332C9.00634 6.5332 8.56689 6.76757 8.31298 7.23632C8.11767 7.58788 8.02001 8.10546 8.02001 8.78905V13.125H5.32471V4.36523H7.93212V5.5664H7.96142C8.15673 5.17578 8.46923 4.85351 8.89892 4.59961C9.36767 4.28711 9.91454 4.13086 10.5395 4.13086C11.8091 4.13086 12.6977 4.53125 13.2055 5.33203C13.5962 5.97656 13.7915 6.97265 13.7915 8.3203V13.125Z" fill="#73737D"></path></svg><span class="css-mglztx e1dx16qw1">Link to $<!-- -->https://www.linkedin.com/in/sam-randels</span></a></div></div></section></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c7eb63c5f48593405c9f.js"],"component---node-modules-narative-gatsby-theme-novela-src-templates-articles-template-tsx":["/component---node-modules-narative-gatsby-theme-novela-src-templates-articles-template-tsx-d93d14133bebc7d0e598.js"],"component---node-modules-narative-gatsby-theme-novela-src-templates-article-template-tsx":["/component---node-modules-narative-gatsby-theme-novela-src-templates-article-template-tsx-bbbfb816e2cd1b632f5e.js"],"component---node-modules-narative-gatsby-theme-novela-src-templates-author-template-tsx":["/component---node-modules-narative-gatsby-theme-novela-src-templates-author-template-tsx-f6b947cf5b5fe2b9f3f1.js"],"component---src-pages-404-js":["/component---src-pages-404-js-379e8ec7e0642413fa9a.js"]};/*]]>*/</script><script src="/component---node-modules-narative-gatsby-theme-novela-src-templates-articles-template-tsx-d93d14133bebc7d0e598.js" async=""></script><script src="/commons-4cb65107058f45f09d77.js" async=""></script><script src="/app-c7eb63c5f48593405c9f.js" async=""></script><script src="/netlify-identity-widget-228173c724ed734191fe.js" async=""></script><script src="/webpack-runtime-a7dfaab379e845bc6d7f.js" async=""></script></body></html>
