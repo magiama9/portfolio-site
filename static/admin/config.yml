@@ -1,8 +1,10 @@
 backend: # Set up your backend
   name: github
   repo: magiama9/portfolio-site
+  branch: master
+  site_domain: elegant-bose-ecb8b6.netlify.com
 
-local_backend: true # Optional if you want to use the local proxy mode
+local_backend: false # Optional if you want to use the local proxy mode
 
 publish_mode: editorial_workflow
 media_folder: media    # I'm not using these default media directories at the moment.
