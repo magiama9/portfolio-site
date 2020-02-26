@@ -1,5 +1,6 @@
 backend: # Set up your backend
-  name: gitlab
+  name: github
+  repo: magiama9/portfolio-site
 
 local_backend: true # Optional if you want to use the local proxy mode
 
