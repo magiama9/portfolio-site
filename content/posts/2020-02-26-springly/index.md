@@ -1,7 +1,7 @@
 ---
 title: Springly
 author: Sam Randels
-date: '2020-02-25'
+date: '2020-02-26'
 excerpt: >-
   Job searching isn't easy, but it doesn't have to be quite so hard. Springly is
   a tool designed to assist job-seekers in organizing their job search.

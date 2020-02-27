@@ -1,7 +1,7 @@
 ---
 title: CommuteBuddy
 author: Sam Randels
-date: '2020-02-25'
+date: '2020-01-20'
 excerpt: >-
   Commuting costs more than we realize. CommuteBuddy provides an elegant way to
   tackle the tough decisions commuters face and save money in the process.
