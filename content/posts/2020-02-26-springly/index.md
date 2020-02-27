@@ -13,7 +13,7 @@ Job searching isn't easy, but it doesn't have to be quite so hard. Springly is a
 
 Springly was born out of the frustration that everyone I know experiences while job searching. The process seems endless with no roadmap to success. It's easy to lose track of job applications and professional materials, especially when you're tailoring your applications to each job.
 
-I would love to hear your personal career story and integrate your feed back into Springly. If you would like to participate,  please visit my [survey](samrandels.io/survey).
+I would love to hear your personal career story and integrate your feedback into Springly. If you would like to participate,  please visit my [survey](samrandels.io/survey).
 
 ## WHAT IT IS
 

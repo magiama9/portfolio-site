@@ -6,7 +6,7 @@ excerpt: I designed and built a wedding information site for my upcoming wedding
 hero: images/wedding-header.png
 ---
 ## Why on earth is this part of my portfolio?
-This site presented a particular challenge for me. It was one of the first sites I built that had a large and diverse group of stakeholders. While obviously myself and my fiancee are the main parties involved, the website also had to function for family and friends ranging young adults to centenarians.
+This site presented a particular challenge for me. It was one of the first sites I built that had a large and diverse group of stakeholders. While obviously myself and my fiancee are the main parties involved, the website also had to function for family and friends ranging from young adults to centenarians.
 
 Every aspect of the website had to be clear, concise, and intuitive, as well as present an elegant face to the world.
 
