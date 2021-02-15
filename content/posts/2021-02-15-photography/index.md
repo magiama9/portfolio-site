@@ -1,5 +1,5 @@
 ---
-title: Springly
+title: Photography
 author: Sam Randels
 date: '2021-02-15'
 excerpt: >-
